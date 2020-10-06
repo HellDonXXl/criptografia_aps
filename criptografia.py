@@ -3,8 +3,8 @@ from Crypto.Hash  import SHA256
 from unicodedata import normalize
 #Biblioteca 
 
-#input de entrada
-senha = input("Digite a senha ")
+#Senha fixa
+senha = "Essa é minha Senha Fixa"
 
 # normalmente hash é padrão  diferente do sals fiz só para mostra que senha a pessoa pode escolher ;
 # no arquivos de criptografia explica oque hash e sals 

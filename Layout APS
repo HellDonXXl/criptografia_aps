@@ -1,0 +1,62 @@
+import tkinter
+from tkinter import *
+from tkinter import ttk
+
+janela = tkinter.Tk()
+janela.title("Trabalho APS CC2020")
+
+janela["bg"] = "gray15"
+
+#Tamanho da Janela LarguraxAltura - Distância da esquerda do monitor e do Topo em pixel
+janela.geometry("1000x700+300+300")
+
+
+
+
+
+
+#FunçãoLimpar
+#FunçãoCriptografar
+#FunçãoDescriptografar
+
+
+
+
+#Entrada 1
+entrada = Entry(janela,width = 150, text = "Digite uma frase")
+entrada.place(x=30,y=50)
+
+
+#botãoLimpar
+#Acrescentar Command = FunçãoLimpar
+bt1 = Button(janela, width = 100, text = "LIMPAR", fg = "black", bg = "thistle4", font = "Helvetica,80")
+bt1.place(x=30, y=100)
+
+#MensagemCrirptografada
+#Acrescentar Command = FunçãoCriptografar
+entrada = Entry(janela,width = 150, text = "Digite uma frase")
+entrada.place(x=30,y=150)
+
+
+#BotãoCriptografar
+bt2 = Button(janela, width = 100, text = "CRIPTOGRAFAR TEXTO", fg = "black", bg = "dim grey", font = "Helvetica,80")
+bt2.place(x=30, y=200)
+
+
+#MensagemDescriptpografada
+#Acrescentar Command = FunçãoDescriptografar
+entrada = Entry(janela,width = 150, text = "Digite uma frase")
+entrada.place(x=30,y=250)
+
+#BotãoDescriptografar
+bt3 = Button(janela, width = 100, text = "DESCRIPTOGRAFAR TEXTO", fg = "black", bg = "grey25", font = "Helvetica,80")
+bt3.place(x=30, y=300)
+
+
+
+
+
+
+
+
+janela.mainloop()
